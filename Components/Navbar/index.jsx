@@ -78,12 +78,12 @@ export default function Navbar() {
               </Link>
             </ListItem>
             <ListItem sx={{ width: "auto" }}>
-              <Link href="/users" style={{ textDecoration: "none", color: "white" }}>
+              <Link href="/about-us" style={{ textDecoration: "none", color: "white" }}>
                 About Us
               </Link>
             </ListItem>
             <ListItem sx={{ width: "auto" }}>
-              <Link href="/products" style={{ textDecoration: "none", color: "white" }}>
+              <Link href="/games" style={{ textDecoration: "none", color: "white" }}>
                 Games
               </Link>
             </ListItem>

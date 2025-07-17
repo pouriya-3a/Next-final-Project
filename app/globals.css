@@ -31,4 +31,48 @@ body{
   background-color: #090130;
 }
 
+@media (max-width: 768px) {
+  html{
+    font-size: 8px;
+  }
+  .my-Container{
+    max-width: 560px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html{
+    font-size: 12px;
+  }
+  .my-Container{
+    max-width: 560px;
+  }
+}
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  html{
+    font-size: 14px;
+  }
+  .my-Container{
+    max-width: 800px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html{
+    font-size: 16px;
+  }
+  .my-Container{
+    max-width: 1000px;
+  }
+}
+@media (min-width: 1400px) {
+  html{
+    font-size: 18px;
+  }
+  .my-Container{
+    max-width: 1440px;
+  }
+}
