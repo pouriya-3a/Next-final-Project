@@ -14,7 +14,7 @@ export default function Home() {
         <CardImage image="/Media/Gamingpic.jpg" title={'cod gaming mode'} description={'Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti so'} />
         <CardImage image="/Media/price.jpg" title={'god mode cod'} description={'Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti so'} />
       </Grid>
-      <CustomBanner />
+      <CustomBanner img={'/Media/Gamingpic.jpg'} />
     </Stack>
   );
 }
