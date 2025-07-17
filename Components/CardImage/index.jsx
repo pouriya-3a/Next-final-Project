@@ -1,7 +1,7 @@
-import { Card, CardContent, Typography, Box, Grid, id } from "@mui/material";
+import { Card, CardContent, Typography, Box, Grid } from "@mui/material";
 import Link from "next/link";
 
-export default function CardImage({ image, title, description, height = 400 }) {
+export default function CardImage({ image, id,title, description, height = 400 }) {
   return (
     <Grid
       sx={{ p: "8px" }}

@@ -82,3 +82,9 @@ export default async function Games() {
     </Box>
   );
 }
+export const generateMetadata = () => {
+  return {
+    title: "Games section of Mr.Gaming Company" ,
+    description: `Details about Mr.Gaming and brothers companhy with ...`,
+  };
+};

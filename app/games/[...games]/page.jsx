@@ -5,6 +5,7 @@
 //         return data
 //     } catch (error) {
 
+import { Box } from "@mui/material";
 import GamingCard from "../GamingCard";
 
 //     }
@@ -38,6 +39,7 @@ export default async function GamesDetails({ params }) {
   if (!product) {
     return (
       <Box
+      className="my-Container"
         sx={{
           minHeight: "100vh",
           display: "flex",
@@ -98,7 +100,7 @@ export default async function GamesDetails({ params }) {
       </Box>
     );}
 
-    return <GamingCard product={product} />;
+    return<Box sx={{pt:'4rem'}} className="my-Container"> <GamingCard product={product} /></Box>;
 
 }
 export const generateMetadata = ({ params }) => {

@@ -84,3 +84,9 @@ export default function AboutUs() {
     </Box>
   );
 }
+export const generateMetadata = () => {
+    return {
+      title: "About Mr.Gaming Company" ,
+      description: `Details about Mr.Gaming and brothers companhy with ...`,
+    };
+  };
